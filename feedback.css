@@ -1,0 +1,338 @@
+*{
+    margin: 0px auto ;
+}
+body {
+    background-color: black;
+}
+
+
+/* header started */
+
+#mainlogo {
+    width: 165px;
+    left: 200px;
+    position: absolute;
+    top: 10px;
+}
+#navbaritem {
+
+    gap: 30px;
+    top: 35px;
+    position: absolute;
+    right: 400px;
+}
+.gap {
+    gap: 30px;
+    text-decoration: none;
+}
+#franchise {
+    position: absolute;
+    right: 250px;
+    top: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 20px 10px;
+    font-size: 10px;
+
+}
+#order {
+    position: absolute;
+    right: 120px;
+    top: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 20px 10px;
+    font-size: 10px;
+
+}
+#order {
+     right: 100px;
+     position: absolute;
+     padding: 18px 38px 18px 20px;
+     background-color: red;
+     color: white;
+     
+
+}
+#arrow {
+    font-size: 20px;
+    position: absolute;
+    
+    left:103px;
+    top: 12px;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: red;
+    background-color: white;
+  }
+
+
+  /* navbar ended */
+
+  /* main section started */
+
+#main-container {
+    margin-top: 140px;
+}
+
+
+  #rating-para {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+  }
+
+.white {
+    color: white;
+    font-size: 15px;
+}
+#give-rate {
+    display: flex;
+    width: 600px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+#comment {
+    width: 400px;
+ 
+    padding:  13px 13px;
+    border-radius: 20px;
+}
+#second-feedback {
+     text-align: center;
+}
+#second-line {
+    left: -165px;
+    position: relative;
+}
+#title {
+    width: 400px;
+ 
+    padding:  13px 13px;
+    border-radius: 20px;
+}
+#first-feedback {
+     text-align: center;
+}
+#first-line {
+    left: -180px;
+    position: relative;
+}
+#full-name {
+    width: 400px;
+ 
+    padding:  13px 13px;
+    border-radius: 20px;
+}
+#third-feedback {
+     text-align: center;
+}
+#third-line {
+    left: -160px;
+    position: relative;
+}
+#email {
+    width: 400px;
+ 
+    padding:  13px 13px;
+    border-radius: 20px;
+}
+#fourth-feedback {
+     text-align: center;
+}
+#fourth-line {
+    left: -175px;
+    position: relative;
+}
+#phone-number {
+    width: 400px;
+ 
+    padding:  13px 13px;
+    border-radius: 20px;
+}
+#five-feedback {
+     text-align: center;
+}
+#five-line {
+    left: -140px;
+    position: relative;
+}
+#feedback-button {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding: 21px 15px 15px 15px;
+    text-align: center;
+    position: relative;
+    left: 550px;
+}
+#feedback-button:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* footer started */
+
+
+#last-salt {
+    position: relative;
+    top: 4100px;
+    left: 150px;
+    width: 140px;
+  }
+  #last-para {
+    top: 4120px;
+    position: relative;
+    left: 140px;
+    color: white;
+    font-size: 12px;
+    color: #FFFFFFB3;
+  }
+  #condition {
+    top: 4150px;
+    position: relative;
+    left: 140px;
+    color: white;
+    font-size: 13px;
+    color: #FFFFFFB3;      
+  }
+
+  .privacy:hover {
+    cursor: pointer;
+  }
+  #site {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 3900px;
+    left: 600px;
+  }
+#nav-last {
+display: block;
+position: relative;
+top: 3920px;
+left: 600px;
+color: white;
+text-decoration: none;
+column-gap: 30px;
+
+}
+.nav-lastone {
+display: block;
+color: white;
+column-gap: 10px;
+text-decoration: none;
+font-size: 13px;
+color: #FFFFFFB3;
+}
+#contact {
+font-size: 18px;
+color: white;
+position: relative;
+top: 3728px;
+left: 800px;
+}
+#last-phone {
+display: block;
+position: relative;
+top: 3745px;
+left: 800px;
+color: white;
+text-decoration: none;
+gap: 30px;
+
+}
+.contact-class {
+display: block;
+color: white;
+text-decoration: none;
+font-size: 15px;
+color: #FFFFFFB3;
+gap: 30px;
+column-gap: 30px;
+
+}
+#follow-last {
+font-size: 18px;
+color: white;
+position: relative;
+top: 3541px;
+left: 1150px;
+}
+
+#icon {
+top: 3551px;
+left: 1120px;
+position: relative;
+width: 150px;
+
+}
+#appstore {
+border: 1px solid white;
+border-radius: 8px;
+padding: 20px 10px 20px 50px;
+background-color: transparent;
+color: white;
+position: relative;
+top: 3595px;
+left: 970px;
+}
+#download-app {
+font-size: 7px;
+}
+#download-store {
+font-size: 20spx;
+}
+#appgoogle {
+border: 1px solid white;
+border-radius: 8px;
+padding: 20px 10px 20px 35px;
+background-color: transparent;
+color: white;
+position: relative;
+top: 3600px;
+left: 1120px;
+}
+#download-google {
+    font-size: 10px;
+    position: relative;
+    right: 10px;
+    
+  }
+  #download-play {
+    font-size: 15px;
+    left: 10px;
+    position: relative;
+  }
+  #apple-logo {
+    font-size: 30px;
+    position: relative;
+    left: -30px;
+    top: 15px;
+  }
+#controller {
+  font-size: 25px;
+  color: white;
+  position: relative;
+  left: -41px;
+  top: 17px;
+}
+#appstore:hover {
+  cursor: pointer;
+}
+#appgoogle:hover {
+  cursor: pointer;
+}
+
+.hover:hover {
+   background-color: #FFFFFFB3 ;
+}
+
+#footer {
+    position: relative;
+    top: -3900px;
+}
+/* footer ended */

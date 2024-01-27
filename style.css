@@ -1,0 +1,1032 @@
+*{
+    margin: 0px;
+    flex-wrap: wrap;
+}
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap'); */
+#mainlogo {
+    width: 165px;
+    left: 200px;
+    position: absolute;
+    top: 10px;
+}
+#navbaritem {
+
+    gap: 30px;
+    top: 35px;
+    position: absolute;
+    right: 400px;
+}
+.gap {
+    gap: 30px;
+    text-decoration: none;
+}
+#franchise {
+    position: absolute;
+    right: 250px;
+    top: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 20px 10px;
+    font-size: 10px;
+
+}
+#order {
+    position: absolute;
+    right: 120px;
+    top: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 20px 10px;
+    font-size: 10px;
+
+}
+#order {
+     right: 100px;
+     position: absolute;
+     padding: 18px 38px 18px 20px;
+     background-color: red;
+     color: white;
+     
+
+}
+ /* nav bar ended  */
+#mainimage {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    
+}
+
+#mainimage:hover {
+     cursor: pointer;
+}
+#welcome {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    position: absolute;
+    top: 780px;
+    left: 450px;
+     
+}
+#restaurant {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    position: absolute;
+    top: 840px;
+    left: 480px;
+}
+#logo {
+   
+    font-size: 40px;
+}
+#clickpara {
+      color: #d2d6d4;
+      top: 890px;
+      text-align: center;
+      position: absolute;
+      left: 410px;
+      font-size: 16px;
+      font-family: 'Assistant', sans-serif;
+}
+#first {
+    width: 280px;
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+    border-radius: 10px;
+}
+#first:hover {
+    cursor: pointer;
+}
+#second {
+    width: 280px;
+    position: absolute;
+    top: 1000px;
+    left: 600px;
+    border-radius: 10px
+
+}
+#second:hover {
+    cursor: pointer;
+}
+#third {
+    width: 277px;
+    position: absolute;
+    top: 997px;
+    left: 990px;
+    border-radius: 10px
+
+}
+#third:hover {
+    cursor: pointer;
+}
+#ordernowone {
+       padding: 15px 45px;
+       position: absolute;
+       left: 250px;
+       top: 1180px;
+       border: 1px solid white;
+       background: black;  
+       color: white;
+       border-radius: 20px; 
+    
+    }
+    .button {
+        font-family: 'Assistant', sans-serif;
+    }
+    #ordernowtwo {
+        padding: 15px 45px;
+        position: absolute;
+        left: 650px;
+        top: 1180px;
+        border: 1px solid white;
+        background: black;  
+        color: white;
+        border-radius: 20px; 
+     
+     }
+     #ordernowthree {
+        padding: 15px 45px;
+        position: absolute;
+        left: 1025px;
+        top: 1185px;
+        border: 1px solid white;
+        background: black;  
+        color: white;
+        border-radius: 20px; 
+     
+     }
+     .button:hover {
+        cursor: pointer;
+     }
+     #restaurantfranchise {
+        font-size: 45px;
+        top: 1350px;
+        left: 550px;
+        position: absolute;
+        color: white;
+       font-style: normal;     }
+       #restaurantfranchisetwo {
+        font-size: 35px;
+        top: 1400px;
+        left: 500px;
+        position: absolute;
+        color: white;
+       font-style: normal;     }
+       #clickparatwo {
+      color: #d2d6d4;
+        top: 1450px;
+        text-align: center;
+        position: absolute;
+        left: 350px;
+        font-size: 16px;
+        font-family: 'Assistant', sans-serif;
+  }
+  #islamabad {
+    color: red;
+    font-family: 'Assistant', sans-serif;
+    position: absolute;
+    top: 1600px;
+    left:  150px;
+
+  }
+  #islamabadsalt {
+    position: absolute;
+    font-family: 'Assistant', sans-serif;
+    top: 1620px;
+    left: 150px;
+    color: white;
+    font-size: 30px;
+  }
+  #islamabadrestaurant {
+    position: absolute;
+    font-family: 'Assistant', sans-serif;
+    top: 1627px;
+    left: 395px;
+    color: red;
+    font-size: 23px ;
+
+
+  }
+  #islamabadaddress {
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    top: 1690px;
+    left: 150px;
+    position: absolute;
+
+
+  }
+  #arrow {
+    font-size: 20px;
+    position: absolute;
+    
+    left:103px;
+    top: 12px;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: red;
+    background-color: white;
+  }
+  #location {
+    /* font-size: 20px; */
+
+  }
+  #islamabadphone {
+
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    top: 1710px;
+    left: 150px;
+    position: absolute;
+  }
+  #islamabadimage{
+    position: absolute;
+    left: 800px;
+    top: 1600px;
+    width: 550px;
+  }
+#islamabaddirection {
+    top: 1770px;
+    left: 150px;
+    position: absolute;
+    padding: 18px 38px 18px 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+#islamabadarrow {
+    font-size: 20px;
+    position: absolute;
+    
+    left:130px;
+    top: 14px;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: red;
+    background-color: white;
+}
+#islamabaddirection:hover {
+    cursor: pointer;
+}
+#faisalabadimage {
+    position: absolute;
+    left: 150px;
+    top: 2000px;
+    width: 550px;
+
+}
+#faisalabad {
+    color: red;
+    font-family: 'Assistant', sans-serif;
+    position: absolute;
+    top: 2000px;
+    left:  800px;
+
+  }
+  #faisalabadsalt {
+    position: absolute;
+    font-family: 'Assistant', sans-serif;
+    top: 2020px;
+    left: 800px;
+    color: white;
+    font-size: 30px;
+  }
+  #faisalabadrestaurant {
+    position: absolute;
+    font-family: 'Assistant', sans-serif;
+    top: 2027px;
+    left: 1045px;
+    color: red;
+    font-size: 23px ;
+
+
+  }
+  #faisalabadaddress {
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    top: 2080px;
+    left: 800px;
+    position: absolute;
+
+
+  }
+  #f-phone{
+  color: white;
+    font-family: 'Assistant', sans-serif;
+    top: 2100px;
+    left: 800px;
+    position: absolute;
+  }
+  #faisalabaddirection {
+    top: 2170px;
+    left: 800px;
+    position: absolute;
+    padding: 18px 38px 18px 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+#faisalarrow {
+    font-size: 20px;
+    position: absolute;
+    
+    left:130px;
+    top: 14px;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: red;
+    background-color: white;
+}
+#faisalabaddirection:hover {
+    cursor: pointer;
+}
+#bhawalpurimage{
+    position: absolute;
+    left: 800px;
+    top: 2360px;
+    width: 550px;
+  }
+  #bhawalpursalt {
+    position: absolute;
+    font-family: 'Assistant', sans-serif;
+    top: 2380px;
+    left: 150px;
+    color: white;
+    font-size: 30px;
+  }
+  #bhawalpurrestaurant {
+    position: absolute;
+    font-family: 'Assistant', sans-serif;
+    top: 2387px;
+    left: 395px;
+    color: red;
+    font-size: 23px ;
+
+
+  }
+  #bhawalpur {
+    color: red;
+    font-family: 'Assistant', sans-serif;
+    position: absolute;
+    top: 2360px;
+    left:  150px;
+
+  }
+  #bhawalpuraddress {
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    top: 2440px;
+    left: 150px;
+    position: absolute;
+
+
+  }
+  #bhawalpurdirection {
+    top: 2510px;
+    left: 150px;
+    position: absolute;
+    padding: 18px 38px 18px 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+#bhawalpurdirection:hover {
+    cursor: pointer;
+}
+#b-phone {
+
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    top: 2460px;
+    left: 150px;
+    position: absolute;
+  }
+  #franchisesalt {
+    position: absolute;
+    top: 2900px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Assistant', sans-serif;
+    color: white;
+    left: 640px;
+  }
+  #express {
+    position: absolute;
+    top: 2935px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    left: 580px;
+  }
+  /* #f-franchise {
+    width: 350px;
+    position: absolute;
+    top: 3020px;
+    left: 160px;
+
+  } 
+  #s-franchise {
+    width: 350px;
+    position: absolute;
+    top: 3020px;
+    left: 600px;
+  }
+  #t-franchise {
+    width: 350px;
+    position: absolute;
+    top: 3020px;
+    left: 1030px;
+  } */
+  /* #packages {
+    position: absolute;
+    top: 3280px;
+    color: red;
+    left: 235px;
+  }
+  #expresssalt {
+    font-size: 25px;
+    position: absolute;
+    left: 180px;
+    top:3295px ;
+    color: white;
+  }
+  #f-express {
+    font-size: 22px;
+  }
+  #f-floor {
+    color: white;
+    position: absolute;
+    top: 3340px;
+    left: 220px;
+  }
+  #fi-phone {
+    color: white;
+    position: absolute;
+    left: 250px;
+    top: 3355px;
+    font-size: 14px;
+  }
+  #secondfloor {
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    top: 4000px;
+  }
+#emporium {
+  position: absolute;
+  top: 3280px;
+  color: red;
+  left: 680px;
+}
+#f2-floor {
+  color: white;
+  position: absolute;
+  top: 3340px;
+  left: 630px;
+
+}
+#f2-phone {
+  color: white;
+  position: absolute;
+  left: 700px;
+  top: 3355px;
+  font-size: 14px;
+}
+#expresssalt-2 {
+  font-size: 25px;
+  position: absolute;
+  left:  630px;
+  top:3295px ;
+  color: white;
+}
+#sixteenth {
+  position: absolute;
+  top: 3280px;
+  color: red;
+  left: 1130px;
+}
+#f3-floor {
+  color: white;
+  position: absolute;
+  top: 3340px;
+  left: 1110px;
+
+}
+#f3-phone {
+  color: white;
+  position: absolute;
+  left: 1145px;
+  top: 3355px;
+  font-size: 14px;
+}
+#expresssalt-3 {
+  font-size: 25px;
+  position: absolute;
+  left:  1070px;
+  top:3295px ;
+  color: white;
+}
+#direction {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 3360px;
+}
+#images {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top:3020px ;
+} */
+#f-franchise {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 3020px;
+}
+#f-image {
+  width: 350px;
+}
+#packages {
+   display: flex;
+   position: relative;
+   top: 3060px;
+  color: red;
+  gap: 100px;
+  justify-content: space-evenly;
+  right: 20px;
+}
+#express-f {
+ 
+  position: relative;
+  top: 3070px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  
+}
+#location-e {
+  color: white;
+   position: relative;
+   top: 3080px;
+   display: flex;
+   justify-content: space-evenly;
+   gap: 70px;
+   right: 20px;
+}
+.button-direction {
+  background-color: transparent;
+  border: 1px solid  white;
+  border-radius: 30px;
+  padding: 20px 30px 20px 20px;
+  color: white;
+}
+#b-direction {
+  display: flex;
+  justify-content: space-evenly;
+  top: 3100px;
+  position: relative;
+  gap: 110px;
+  right: 10px;
+  
+}
+.button-direction:hover {
+  cursor: pointer;
+}
+#f-franchiseone {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 3200px;
+}
+#f-image {
+  width: 350px;
+}
+#onepkg {
+   display: flex;
+   position: relative;
+   top: 3240px;
+  color: red;
+  gap: 120px;
+  justify-content: space-evenly;
+  right: 20px;
+  right:  40px;
+}
+#oneexpress {
+ 
+  position: relative;
+  top: 3250px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  
+}
+#onelocation {
+  color: white;
+   position: relative;
+   top: 3260px;
+   display: flex;
+   justify-content: space-evenly;
+   gap: 70px;
+   right: 20px;
+}
+#onedirection {
+  background-color: transparent;
+  border: 1px solid  white;
+  border-radius: 30px;
+  padding: 20px 30px 20px 20px;
+  color: white;
+}
+#c-direction {
+  display: flex;
+  justify-content: space-evenly;
+  top: 3300px;
+  position: relative;
+  gap: 110px;
+  right: 10px;
+  
+}
+.button-direction:hover {
+  cursor: pointer;
+}
+#f-franchisetwo {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 3390px;
+}
+#f-image {
+  width: 350px;
+}
+#twopkg {
+   display: flex;
+   position: relative;
+   top: 3430px;
+  color: red;
+  gap: 100px;
+  justify-content: space-evenly;
+  
+  
+}
+#twoexpress {
+ 
+  position: relative;
+  top: 3440px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  
+}
+#twolocation {
+  color: white;
+   position: relative;
+   top: 3455px;
+   display: flex;
+   justify-content: space-evenly;
+   gap: 70px;
+   right: 20px;
+}
+#twodirection {
+  background-color: transparent;
+  border: 1px solid  white;
+  border-radius: 30px;
+  padding: 20px 30px 20px 20px;
+  color: white;
+}
+#d-direction {
+  display: flex;
+  justify-content: space-evenly;
+  top: 3480px;
+  position: relative;
+  gap: 110px;
+  right: 10px;
+  
+}
+.button-direction:hover {
+  cursor: pointer;
+}
+#phone-franchise {
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  top: 3090px;
+  gap: 120px;
+  left: -10px;
+}
+#phone-franchisetwo {
+  color: white;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  top: 3210px;
+  gap: 120px;
+  left: -10px;
+  }
+  #phone-franchisethree {
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 3465px;
+    gap: 120px;
+    left: -10px;
+    }
+    #salt-two {
+        color: white;
+        font-size: 45px;
+        top: 3700px;
+        left: 610px;
+        position: relative;
+      }
+      #village {
+        color: white;
+        font-size: 26px;
+        top: 3710px;
+        left: 640px;
+        position: relative;
+      }
+      #vilage-image {
+        width: 265px;
+        position: absolute;
+        top: 3750px;
+        left: 0px;
+      }
+      #v-image {
+        position: relative;
+        top:3750px ;
+        left: 0px;
+        width: 702px;
+      }
+      #gujar {
+        position: relative;
+        top: 3480px;
+        left: 750px;
+        color: red;
+        font-size: 17px;
+      }
+      #v-salt {
+        font-size: 35px;
+        position: relative;
+        top: 3500px;
+        left: 750px;
+        color: white;
+      }
+      #vil {
+        font-size: 23px;
+        color: red;
+        position: relative;
+        top: 3470px;
+        left: 1010px;
+      }
+      #village-address {
+        color: white;
+        position: relative;
+        top: 3490px;
+        left: 750px;
+        font-size: 14px;
+      }
+      #village-phone {
+        color: white;
+        position: relative;
+        top: 3500px;
+        left: 743px;
+        font-size: 13px;
+      }
+      #village-direction {
+        border: 1px solid white;
+        border-radius: 30px;
+        background-color: green;
+        color: white;
+        position: relative;
+        top: 3560px;
+        left: 740px;
+        padding: 20px 40px 20px 20px;
+      }
+      #village-direction:hover {
+        cursor: pointer;
+      }
+      #arrow-two {
+        font-size: 20px;
+        position: absolute;
+        
+        left:128px;
+        top: 13px;
+        border: 1px solid white;
+        border-radius: 40px;
+        color: green;
+        background-color: white;
+        padding: 3px 3px;
+      }
+      #opening-salt {
+        color: white;
+        font-size: 40px;
+        position: relative;
+        top: 3800px;
+        text-align: center;
+      }
+      #opening-express {
+        color: white;
+        position: relative;
+        text-align: center;
+        top: 3810px;
+        font-size: 30px;
+      }
+      #opening-soon {
+        font-size: 20px;
+        position: relative;
+        top: -3px;
+      }
+      #map-location {
+        position: relative;
+        top: 3830px;
+        width: 1020px;
+        left: 190px;
+      }
+      #social {
+        top: 3900px;
+        position: relative;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+      }
+      #burger-party {
+        position: relative;
+        top: 3920px;
+        display: flex;
+        justify-content: space-evenly;
+        
+      }
+      .burger {
+        width:239px ;
+      }
+      .burger:hover {
+        cursor: pointer;
+      }
+      #last-salt {
+        position: relative;
+        top: 4100px;
+        left: 150px;
+        width: 140px;
+      }
+      #last-para {
+        top: 4120px;
+        position: relative;
+        left: 140px;
+        color: white;
+        font-size: 12px;
+        color: #FFFFFFB3;
+      }
+      #condition {
+        top: 4150px;
+        position: relative;
+        left: 140px;
+        color: white;
+        font-size: 13px;
+        color: #FFFFFFB3;      
+      }
+  
+      .privacy:hover {
+        cursor: pointer;
+      }
+      #site {
+        font-size: 18px;
+        color: white;
+        position: relative;
+        top: 3900px;
+        left: 600px;
+      }
+  #nav-last {
+    display: block;
+    position: relative;
+    top: 3920px;
+    left: 600px;
+    color: white;
+    text-decoration: none;
+    column-gap: 30px;
+
+  }
+  .nav-lastone {
+    display: block;
+    color: white;
+   column-gap: 10px;
+   text-decoration: none;
+   font-size: 13px;
+   color: #FFFFFFB3;
+  }
+  #contact {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 3728px;
+    left: 800px;
+  }
+  #last-phone {
+    display: block;
+    position: relative;
+    top: 3745px;
+    left: 800px;
+    color: white;
+    text-decoration: none;
+    gap: 30px;
+    
+  }
+  .contact-class {
+    display: block;
+    color: white;
+   text-decoration: none;
+   font-size: 15px;
+   color: #FFFFFFB3;
+   gap: 30px;
+   column-gap: 30px;
+
+  }
+  #follow-last {
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 3541px;
+    left: 1150px;
+  }
+
+  #icon {
+    top: 3551px;
+    left: 1120px;
+    position: relative;
+    width: 150px;
+
+  }
+  #appstore {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px 10px 20px 50px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    top: 3595px;
+    left: 970px;
+  }
+  #download-app {
+    font-size: 7px;
+    position: relative;
+    left: -10px;
+  }
+  #download-store {
+    font-size: 20spx;
+  }
+  #appgoogle {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px 10px 20px 35px;
+    background-color: transparent;
+    color: white;
+    position: relative;
+    top: 3600px;
+    left: 1120px;
+  }
+  #download-google {
+    font-size: 10px;
+    position: relative;
+    right: 10px;
+    
+  }
+  #download-play {
+    font-size: 15px;
+    left: 10px;
+    position: relative;
+  }
+  #apple-logo {
+    font-size: 30px;
+    position: relative;
+    left: -30px;
+    top: 15px;
+  }
+#controller {
+  font-size: 25px;
+  color: white;
+  position: relative;
+  left: -41px;
+  top: 17px;
+}
+#appstore:hover {
+  cursor: pointer;
+}
+#appgoogle:hover {
+  cursor: pointer;
+}
